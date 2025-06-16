@@ -58,7 +58,7 @@ with st.sidebar:
     if st.button("🔄 Start New Session"):
         ts = datetime.now().strftime("%Y%m%d_%H%M%S")
         st.session_state.session_id = f"{ts}_{uuid.uuid4().hex[:6]}"
-        st.experimental_rerun()
+        st.rerun()
     st.caption("All actions and data are session-aware.")
     st.caption("Made with 💡 by Langflow + Streamlit")
 
