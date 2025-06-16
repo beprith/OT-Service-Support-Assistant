@@ -1,0 +1,11 @@
+streamlit
+requests
+fastapi
+uvicorn
+langchain
+pymupdf
+docx2txt
+faiss-cpu
+unstructured
+huggingface-hub
+python-multipart
