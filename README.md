@@ -7,7 +7,7 @@ Whenever we make a significant architectural choice for this OT-Debug Chatbot, w
 ### ADR 0001: Choose Streamlit for User Interface  
 **Date:** 2025-06-16  
 **Status:** Accepted  
-
+```mermaid
 graph LR
     A[User Browser] -->|HTTP| B[Streamlit App]
     B -->|POST /ask| C[FastAPI Backend]
@@ -20,7 +20,7 @@ graph LR
     end
     G --> F
     H --> F  &nbsp; <!-- for RAG, LLM may re-query embeddings -->
-
+```
 
 #### Context  
 We need a lightweight, interactive web UI that allows enterprise users to type in OT system issues and get back suggestions. It should be simple to deploy alongside our backend service.
