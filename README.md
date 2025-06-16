@@ -12,14 +12,18 @@ graph LR
     A[User Browser] -->|HTTP| B[Streamlit App]
     B -->|POST /ask| C[FastAPI Backend]
     C -->|HTTP| D[Langflow MCP Server]
-    subgraph Langflow Flow
+
+    subgraph LangflowFlow
       D1[Webhook Input] --> E[Retriever]
-      F[Vector Store] <-- G[Document Loader + Splitter + Embeddings]
+      G[Document Loader & Splitter & Embeddings] --> F[Vector Store]
       E --> H[LLM Chain]
+      %% The LLM chain can re-query the vector store for RAG
+      H --> F
       H --> I[JSON Response]
     end
+
     G --> F
-    H --> F  &nbsp; <!-- for RAG, LLM may re-query embeddings -->
+
 ```
 
 #### Context  
