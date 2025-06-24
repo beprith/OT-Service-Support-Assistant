@@ -1,0 +1,2887 @@
+{
+  "data": {
+    "edges": [
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "OllamaEmbeddings",
+            "id": "OllamaEmbeddings-b2EkB",
+            "name": "embeddings",
+            "output_types": [
+              "Embeddings"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "embedding",
+            "id": "MongoDBAtlasVector-VRhmE",
+            "inputTypes": [
+              "Embeddings"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__OllamaEmbeddings-b2EkB{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-b2EkBœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}-MongoDBAtlasVector-VRhmE{œfieldNameœ:œembeddingœ,œidœ:œMongoDBAtlasVector-VRhmEœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "OllamaEmbeddings-b2EkB",
+        "sourceHandle": "{œdataTypeœ:œOllamaEmbeddingsœ,œidœ:œOllamaEmbeddings-b2EkBœ,œnameœ:œembeddingsœ,œoutput_typesœ:[œEmbeddingsœ]}",
+        "target": "MongoDBAtlasVector-VRhmE",
+        "targetHandle": "{œfieldNameœ:œembeddingœ,œidœ:œMongoDBAtlasVector-VRhmEœ,œinputTypesœ:[œEmbeddingsœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-SL4iy",
+            "name": "sessionID",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "collection_name",
+            "id": "CustomComponent-bndnz",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-SL4iy{œdataTypeœ:œChatInputœ,œidœ:œChatInput-SL4iyœ,œnameœ:œsessionIDœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-bndnz{œfieldNameœ:œcollection_nameœ,œidœ:œCustomComponent-bndnzœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-SL4iy",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-SL4iyœ,œnameœ:œsessionIDœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-bndnz",
+        "targetHandle": "{œfieldNameœ:œcollection_nameœ,œidœ:œCustomComponent-bndnzœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-SL4iy",
+            "name": "sessionID",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "collection_name",
+            "id": "MongoDBAtlasVector-VRhmE",
+            "inputTypes": [
+              "Message",
+              "str"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-SL4iy{œdataTypeœ:œChatInputœ,œidœ:œChatInput-SL4iyœ,œnameœ:œsessionIDœ,œoutput_typesœ:[œMessageœ]}-MongoDBAtlasVector-VRhmE{œfieldNameœ:œcollection_nameœ,œidœ:œMongoDBAtlasVector-VRhmEœ,œinputTypesœ:[œMessageœ,œstrœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-SL4iy",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-SL4iyœ,œnameœ:œsessionIDœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "MongoDBAtlasVector-VRhmE",
+        "targetHandle": "{œfieldNameœ:œcollection_nameœ,œidœ:œMongoDBAtlasVector-VRhmEœ,œinputTypesœ:[œMessageœ,œstrœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-SL4iy",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "folder_name",
+            "id": "CustomComponent-zv6aa",
+            "inputTypes": [
+              "Message"
+            ],
+            "type": "str"
+          }
+        },
+        "id": "xy-edge__ChatInput-SL4iy{œdataTypeœ:œChatInputœ,œidœ:œChatInput-SL4iyœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-CustomComponent-zv6aa{œfieldNameœ:œfolder_nameœ,œidœ:œCustomComponent-zv6aaœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
+        "selected": false,
+        "source": "ChatInput-SL4iy",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-SL4iyœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "CustomComponent-zv6aa",
+        "targetHandle": "{œfieldNameœ:œfolder_nameœ,œidœ:œCustomComponent-zv6aaœ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "CreateCosineVectorIndex",
+            "id": "CustomComponent-bndnz",
+            "name": "output",
+            "output_types": [
+              "Message"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_value",
+            "id": "ChatOutput-SOiZB",
+            "inputTypes": [
+              "Data",
+              "DataFrame",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-bndnz{œdataTypeœ:œCreateCosineVectorIndexœ,œidœ:œCustomComponent-bndnzœ,œnameœ:œoutputœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-SOiZB{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-SOiZBœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-bndnz",
+        "sourceHandle": "{œdataTypeœ:œCreateCosineVectorIndexœ,œidœ:œCustomComponent-bndnzœ,œnameœ:œoutputœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "ChatOutput-SOiZB",
+        "targetHandle": "{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-SOiZBœ,œinputTypesœ:[œDataœ,œDataFrameœ,œMessageœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ParserComponent",
+            "id": "ParserComponent-ibRKe",
+            "name": "parsed_text",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "data_inputs",
+            "id": "SplitText-XlRyY",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__ParserComponent-ibRKe{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-ibRKeœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œDataœ]}-SplitText-XlRyY{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-XlRyYœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "ParserComponent-ibRKe",
+        "sourceHandle": "{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-ibRKeœ,œnameœ:œparsed_textœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SplitText-XlRyY",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-XlRyYœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "FolderFileReader",
+            "id": "FolderFileReader-V4oAk",
+            "name": "file_contents",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_data",
+            "id": "ParserComponent-ibRKe",
+            "inputTypes": [
+              "DataFrame",
+              "Data",
+              "Message"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__FolderFileReader-V4oAk{œdataTypeœ:œFolderFileReaderœ,œidœ:œFolderFileReader-V4oAkœ,œnameœ:œfile_contentsœ,œoutput_typesœ:[œDataœ]}-ParserComponent-ibRKe{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-ibRKeœ,œinputTypesœ:[œDataFrameœ,œDataœ,œMessageœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "FolderFileReader-V4oAk",
+        "sourceHandle": "{œdataTypeœ:œFolderFileReaderœ,œidœ:œFolderFileReader-V4oAkœ,œnameœ:œfile_contentsœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParserComponent-ibRKe",
+        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-ibRKeœ,œinputTypesœ:[œDataFrameœ,œDataœ,œMessageœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "SplitText",
+            "id": "SplitText-j954x",
+            "name": "chunks",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "input_data",
+            "id": "ParserComponent-62CBQ",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__SplitText-j954x{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-j954xœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}-ParserComponent-62CBQ{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-62CBQœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "SplitText-j954x",
+        "sourceHandle": "{œdataTypeœ:œSplitTextœ,œidœ:œSplitText-j954xœ,œnameœ:œchunksœ,œoutput_typesœ:[œDataœ]}",
+        "target": "ParserComponent-62CBQ",
+        "targetHandle": "{œfieldNameœ:œinput_dataœ,œidœ:œParserComponent-62CBQœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "ParserComponent",
+            "id": "ParserComponent-62CBQ",
+            "name": "parsed",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "ingest_data",
+            "id": "MongoDBAtlasVector-VRhmE",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__ParserComponent-62CBQ{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-62CBQœ,œnameœ:œparsedœ,œoutput_typesœ:[œDataœ]}-MongoDBAtlasVector-VRhmE{œfieldNameœ:œingest_dataœ,œidœ:œMongoDBAtlasVector-VRhmEœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "ParserComponent-62CBQ",
+        "sourceHandle": "{œdataTypeœ:œParserComponentœ,œidœ:œParserComponent-62CBQœ,œnameœ:œparsedœ,œoutput_typesœ:[œDataœ]}",
+        "target": "MongoDBAtlasVector-VRhmE",
+        "targetHandle": "{œfieldNameœ:œingest_dataœ,œidœ:œMongoDBAtlasVector-VRhmEœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "PageSplitter",
+            "id": "CustomComponent-IjuJb",
+            "name": "pages",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "data_inputs",
+            "id": "SplitText-j954x",
+            "inputTypes": [
+              "Data",
+              "DataFrame"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-IjuJb{œdataTypeœ:œPageSplitterœ,œidœ:œCustomComponent-IjuJbœ,œnameœ:œpagesœ,œoutput_typesœ:[œDataœ]}-SplitText-j954x{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-j954xœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-IjuJb",
+        "sourceHandle": "{œdataTypeœ:œPageSplitterœ,œidœ:œCustomComponent-IjuJbœ,œnameœ:œpagesœ,œoutput_typesœ:[œDataœ]}",
+        "target": "SplitText-j954x",
+        "targetHandle": "{œfieldNameœ:œdata_inputsœ,œidœ:œSplitText-j954xœ,œinputTypesœ:[œDataœ,œDataFrameœ],œtypeœ:œotherœ}"
+      },
+      {
+        "animated": false,
+        "className": "",
+        "data": {
+          "sourceHandle": {
+            "dataType": "FolderFileReader",
+            "id": "CustomComponent-zv6aa",
+            "name": "file_contents",
+            "output_types": [
+              "Data"
+            ]
+          },
+          "targetHandle": {
+            "fieldName": "doc",
+            "id": "CustomComponent-IjuJb",
+            "inputTypes": [
+              "Data",
+              "List"
+            ],
+            "type": "other"
+          }
+        },
+        "id": "xy-edge__CustomComponent-zv6aa{œdataTypeœ:œFolderFileReaderœ,œidœ:œCustomComponent-zv6aaœ,œnameœ:œfile_contentsœ,œoutput_typesœ:[œDataœ]}-CustomComponent-IjuJb{œfieldNameœ:œdocœ,œidœ:œCustomComponent-IjuJbœ,œinputTypesœ:[œDataœ,œListœ],œtypeœ:œotherœ}",
+        "selected": false,
+        "source": "CustomComponent-zv6aa",
+        "sourceHandle": "{œdataTypeœ:œFolderFileReaderœ,œidœ:œCustomComponent-zv6aaœ,œnameœ:œfile_contentsœ,œoutput_typesœ:[œDataœ]}",
+        "target": "CustomComponent-IjuJb",
+        "targetHandle": "{œfieldNameœ:œdocœ,œidœ:œCustomComponent-IjuJbœ,œinputTypesœ:[œDataœ,œListœ],œtypeœ:œotherœ}"
+      }
+    ],
+    "nodes": [
+      {
+        "data": {
+          "id": "MongoDBAtlasVector-VRhmE",
+          "node": {
+            "base_classes": [
+              "Data",
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "MongoDB Atlas Vector Store with search capabilities",
+            "display_name": "MongoDB Atlas",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "mongodb_atlas_cluster_uri",
+              "enable_mtls",
+              "mongodb_atlas_client_cert",
+              "db_name",
+              "collection_name",
+              "index_name",
+              "ingest_data",
+              "search_query",
+              "should_cache_vector_store",
+              "insert_mode",
+              "embedding",
+              "number_of_results",
+              "index_field",
+              "filter_field",
+              "number_dimensions",
+              "similarity",
+              "quantization"
+            ],
+            "frozen": false,
+            "icon": "MongoDB",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Search Results",
+                "hidden": null,
+                "method": "search_documents",
+                "name": "search_results",
+                "options": null,
+                "required_inputs": [
+                  "db_name",
+                  "enable_mtls",
+                  "index_field",
+                  "mongodb_atlas_cluster_uri",
+                  "number_dimensions"
+                ],
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "DataFrame",
+                "hidden": null,
+                "method": "as_dataframe",
+                "name": "dataframe",
+                "options": null,
+                "required_inputs": [],
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import tempfile\nimport time\nimport certifi\nfrom langchain_community.vectorstores import MongoDBAtlasVectorSearch\nfrom pymongo.collection import Collection\nfrom pymongo.operations import SearchIndexModel\nfrom pymongo import MongoClient\nfrom langflow.base.vectorstores.model import LCVectorStoreComponent, check_cached_vector_store\nfrom langflow.helpers.data import docs_to_data\nfrom langflow.io import BoolInput, DropdownInput, HandleInput, IntInput, SecretStrInput, StrInput\nfrom langflow.schema import Data, Message\n\n\nclass MongoVectorStoreComponent(LCVectorStoreComponent):\n    display_name = \"MongoDB Atlas\"\n    description = \"MongoDB Atlas Vector Store with search capabilities\"\n    name = \"MongoDBAtlasVector\"\n    icon = \"MongoDB\"\n    INSERT_MODES = [\"overwrite\"]\n    SIMILARITY_OPTIONS = [\"cosine\", \"euclidean\", \"dotProduct\"]\n    QUANTIZATION_OPTIONS = [\"scalar\", \"binary\"]\n\n    inputs = [\n        SecretStrInput(name=\"mongodb_atlas_cluster_uri\", display_name=\"MongoDB Atlas Cluster URI\", required=True),\n        BoolInput(name=\"enable_mtls\", display_name=\"Enable mTLS\", value=False, advanced=True, required=True),\n        SecretStrInput(\n            name=\"mongodb_atlas_client_cert\",\n            display_name=\"MongoDB Atlas Combined Client Certificate\",\n            required=False,\n            info=\"Client Certificate combined with the private key in PEM format\",\n        ),\n        StrInput(name=\"db_name\", display_name=\"Database Name\", required=True),\n        StrInput(name=\"collection_name\", display_name=\"Collection Name\", input_types=[\"Message\", \"str\"]),\n        StrInput(name=\"index_name\", display_name=\"Index Name\", input_types=[\"Data\", \"str\"]),\n        *LCVectorStoreComponent.inputs,\n        DropdownInput(\n            name=\"insert_mode\",\n            display_name=\"Insert Mode\",\n            options=INSERT_MODES,\n            value=INSERT_MODES[0],\n            info=\"How to insert new documents into the collection.\",\n            advanced=True,\n        ),\n        HandleInput(name=\"embedding\", display_name=\"Embedding\", input_types=[\"Embeddings\"]),\n        IntInput(\n            name=\"number_of_results\",\n            display_name=\"Number of Results\",\n            info=\"Number of results to return.\",\n            value=4,\n            advanced=True,\n        ),\n        StrInput(\n            name=\"index_field\",\n            display_name=\"Index Field\",\n            advanced=True,\n            required=True,\n            info=\"The field to index.\",\n            value=\"embedding\",\n        ),\n        StrInput(\n            name=\"filter_field\", display_name=\"Filter Field\", advanced=True, info=\"The field to filter the index.\"\n        ),\n        IntInput(\n            name=\"number_dimensions\",\n            display_name=\"Number of Dimensions\",\n            info=\"Embedding Context Length.\",\n            value=1536,\n            advanced=True,\n            required=True,\n        ),\n        DropdownInput(\n            name=\"similarity\",\n            display_name=\"Similarity\",\n            options=SIMILARITY_OPTIONS,\n            value=SIMILARITY_OPTIONS[0],\n            info=\"The method used to measure the similarity between vectors.\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"quantization\",\n            display_name=\"Quantization\",\n            options=QUANTIZATION_OPTIONS,\n            value=None,\n            info=\"Quantization reduces memory costs converting 32-bit floats to smaller data types\",\n            advanced=True,\n        ),\n    ]\n\n    @check_cached_vector_store\n    def build_vector_store(self) -> MongoDBAtlasVectorSearch:\n        # Normalize inputs (extract .content if Message)\n        coll_name = (\n            self.collection_name.content\n            if hasattr(self.collection_name, \"content\")\n            else self.collection_name\n        )\n        idx_name = (\n            self.index_name.content\n            if hasattr(self.index_name, \"content\")\n            else self.index_name\n        )\n\n        # Prepare client cert if mTLS enabled\n        client_cert_path = None\n        if self.enable_mtls and self.mongodb_atlas_client_cert:\n            pem = self.mongodb_atlas_client_cert.replace(\" \", \"\\n\")\n            with tempfile.NamedTemporaryFile(delete=False) as f:\n                f.write(pem.encode(\"utf-8\"))\n                client_cert_path = f.name\n\n        # Connect to MongoDB Atlas\n        mongo_client = (\n            MongoClient(\n                self.mongodb_atlas_cluster_uri,\n                tls=True,\n                tlsCertificateKeyFile=client_cert_path,\n                tlsCAFile=certifi.where(),\n            )\n            if self.enable_mtls\n            else MongoClient(self.mongodb_atlas_cluster_uri)\n        )\n\n        # Access database and collection (create if missing)\n        try:\n            db = mongo_client[self.db_name]\n            if coll_name not in db.list_collection_names():\n                db.create_collection(coll_name)\n            collection = db[coll_name]\n        except Exception as conn_err:\n            raise ValueError(f\"Failed to connect or create collection: {conn_err}\")\n\n        # Prepare docs\n        self.ingest_data = self._prepare_ingest_data()\n        documents = [\n            inp.to_lc_document() if isinstance(inp, Data) else inp\n            for inp in (self.ingest_data or [])\n        ]\n\n        # Handle insertion\n        if documents:\n            if self.insert_mode == \"overwrite\":\n                collection.delete_many({})\n            # 'append' does nothing extra\n\n        # Build or reuse vector store\n        return MongoDBAtlasVectorSearch.from_documents(\n            documents=documents,\n            embedding=self.embedding,\n            collection=collection,\n            index_name=idx_name,\n        )\n\n    def search_documents(self) -> list[Data]:\n        from bson.objectid import ObjectId\n\n        # Rebuild or get existing store\n        vector_store = self.build_vector_store()\n\n        # Normalize search query\n        query = (\n            self.search_query.content\n            if hasattr(self.search_query, \"content\")\n            else self.search_query\n        )\n        if not isinstance(query, str):\n            return []\n\n        # Ensure index exists\n        self.verify_search_index(vector_store._collection)\n\n        # Execute similarity search\n        docs = vector_store.similarity_search(query=query, k=self.number_of_results)\n        for doc in docs:\n            doc.metadata = {\n                k: str(v) if isinstance(v, ObjectId) else v\n                for k, v in doc.metadata.items()\n            }\n        data = docs_to_data(docs)\n        self.status = data\n        return data\n\n    def verify_search_index(self, collection: Collection) -> None:\n        # Normalize index name\n        idx_name = (\n            self.index_name.content\n            if hasattr(self.index_name, \"content\")\n            else self.index_name\n        )\n        # Check existing indexes\n        indexes = collection.list_search_indexes()\n        if not any(idx[\"name\"] == idx_name for idx in indexes):\n            collection.create_search_index(self.__create_index_definition())\n            time.sleep(20)\n\n    def __create_index_definition(self) -> SearchIndexModel:\n        fields = [\n            {\n                \"type\": \"vector\",\n                \"path\": self.index_field,\n                \"numDimensions\": self.number_dimensions,\n                \"similarity\": self.similarity,\n                **({\"quantization\": self.quantization} if self.quantization else {}),\n            }\n        ]\n        if self.filter_field:\n            fields.append({\"type\": \"filter\", \"path\": self.filter_field})\n        return SearchIndexModel(\n            definition={\"fields\": fields}, name=(\n                self.index_name.content\n                if hasattr(self.index_name, \"content\")\n                else self.index_name\n            ),\n            type=\"vectorSearch\",\n        )\n"
+              },
+              "collection_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Collection Name",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message",
+                  "str"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "collection_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "db_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Database Name",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "db_name",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "ot-service"
+              },
+              "embedding": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Embedding",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Embeddings"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "embedding",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "enable_mtls": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Enable mTLS",
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "enable_mtls",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": false
+              },
+              "filter_field": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Filter Field",
+                "dynamic": false,
+                "info": "The field to filter the index.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "filter_field",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "index_field": {
+                "_input_type": "StrInput",
+                "advanced": true,
+                "display_name": "Index Field",
+                "dynamic": false,
+                "info": "The field to index.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "index_field",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "embedding"
+              },
+              "index_name": {
+                "_input_type": "StrInput",
+                "advanced": false,
+                "display_name": "Index Name",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data",
+                  "str"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "index_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "cosine_vector_index"
+              },
+              "ingest_data": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Ingest Data",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "ingest_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "insert_mode": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Insert Mode",
+                "dynamic": false,
+                "info": "How to insert new documents into the collection.",
+                "load_from_db": false,
+                "name": "insert_mode",
+                "options": [
+                  "overwrite"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "append"
+              },
+              "mongodb_atlas_client_cert": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "MongoDB Atlas Combined Client Certificate",
+                "dynamic": false,
+                "info": "Client Certificate combined with the private key in PEM format",
+                "input_types": [],
+                "load_from_db": false,
+                "name": "mongodb_atlas_client_cert",
+                "password": true,
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "mongodb_atlas_cluster_uri": {
+                "_input_type": "SecretStrInput",
+                "advanced": false,
+                "display_name": "MongoDB Atlas Cluster URI",
+                "dynamic": false,
+                "info": "",
+                "input_types": [],
+                "load_from_db": true,
+                "name": "mongodb_atlas_cluster_uri",
+                "password": true,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "str",
+                "value": ""
+              },
+              "number_dimensions": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Number of Dimensions",
+                "dynamic": false,
+                "info": "Embedding Context Length.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "number_dimensions",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 1536
+              },
+              "number_of_results": {
+                "_input_type": "IntInput",
+                "advanced": true,
+                "display_name": "Number of Results",
+                "dynamic": false,
+                "info": "Number of results to return.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "number_of_results",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 4
+              },
+              "quantization": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Quantization",
+                "dynamic": false,
+                "info": "Quantization reduces memory costs converting 32-bit floats to smaller data types",
+                "name": "quantization",
+                "options": [
+                  "scalar",
+                  "binary"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str"
+              },
+              "search_query": {
+                "_input_type": "QueryInput",
+                "advanced": false,
+                "display_name": "Search Query",
+                "dynamic": false,
+                "info": "Enter a query to run a similarity search.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "search_query",
+                "placeholder": "Enter a query...",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "query",
+                "value": ""
+              },
+              "should_cache_vector_store": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Cache Vector Store",
+                "dynamic": false,
+                "info": "If True, the vector store will be cached for the current build of the component. This is useful for components that have multiple output methods and want to share the same vector store.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_cache_vector_store",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "similarity": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Similarity",
+                "dynamic": false,
+                "info": "The method used to measure the similarity between vectors.",
+                "name": "similarity",
+                "options": [
+                  "cosine",
+                  "euclidean",
+                  "dotProduct"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "cosine"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "MongoDBAtlasVector"
+        },
+        "dragging": false,
+        "id": "MongoDBAtlasVector-VRhmE",
+        "measured": {
+          "height": 793,
+          "width": 320
+        },
+        "position": {
+          "x": 1787.5948888432656,
+          "y": -157.90168181496574
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "OllamaEmbeddings-b2EkB",
+          "node": {
+            "base_classes": [
+              "Embeddings"
+            ],
+            "beta": false,
+            "category": "embeddings",
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Generate embeddings using Ollama models.",
+            "display_name": "Ollama Embeddings",
+            "documentation": "https://python.langchain.com/docs/integrations/text_embedding/ollama",
+            "edited": false,
+            "field_order": [
+              "model_name",
+              "base_url"
+            ],
+            "frozen": false,
+            "icon": "Ollama",
+            "key": "OllamaEmbeddings",
+            "legacy": false,
+            "lf_version": "1.4.2",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Embeddings",
+                "hidden": false,
+                "method": "build_embeddings",
+                "name": "embeddings",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Embeddings",
+                "tool_mode": true,
+                "types": [
+                  "Embeddings"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "score": 0.007568328950209746,
+            "template": {
+              "_type": "Component",
+              "base_url": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Ollama Base URL",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "base_url",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "http://localhost:11434"
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import Any\nfrom urllib.parse import urljoin\n\nimport httpx\nfrom langchain_ollama import OllamaEmbeddings\n\nfrom langflow.base.models.model import LCModelComponent\nfrom langflow.base.models.ollama_constants import OLLAMA_EMBEDDING_MODELS, URL_LIST\nfrom langflow.field_typing import Embeddings\nfrom langflow.io import DropdownInput, MessageTextInput, Output\n\nHTTP_STATUS_OK = 200\n\n\nclass OllamaEmbeddingsComponent(LCModelComponent):\n    display_name: str = \"Ollama Embeddings\"\n    description: str = \"Generate embeddings using Ollama models.\"\n    documentation = \"https://python.langchain.com/docs/integrations/text_embedding/ollama\"\n    icon = \"Ollama\"\n    name = \"OllamaEmbeddings\"\n\n    inputs = [\n        DropdownInput(\n            name=\"model_name\",\n            display_name=\"Ollama Model\",\n            value=\"\",\n            options=[],\n            real_time_refresh=True,\n            refresh_button=True,\n            combobox=True,\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"base_url\",\n            display_name=\"Ollama Base URL\",\n            value=\"\",\n            required=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Embeddings\", name=\"embeddings\", method=\"build_embeddings\"),\n    ]\n\n    def build_embeddings(self) -> Embeddings:\n        try:\n            output = OllamaEmbeddings(model=self.model_name, base_url=self.base_url)\n        except Exception as e:\n            msg = (\n                \"Unable to connect to the Ollama API. \",\n                \"Please verify the base URL, ensure the relevant Ollama model is pulled, and try again.\",\n            )\n            raise ValueError(msg) from e\n        return output\n\n    async def update_build_config(self, build_config: dict, field_value: Any, field_name: str | None = None):\n        if field_name in {\"base_url\", \"model_name\"} and not await self.is_valid_ollama_url(field_value):\n            # Check if any URL in the list is valid\n            valid_url = \"\"\n            for url in URL_LIST:\n                if await self.is_valid_ollama_url(url):\n                    valid_url = url\n                    break\n            build_config[\"base_url\"][\"value\"] = valid_url\n        if field_name in {\"model_name\", \"base_url\", \"tool_model_enabled\"}:\n            if await self.is_valid_ollama_url(self.base_url):\n                build_config[\"model_name\"][\"options\"] = await self.get_model(self.base_url)\n            elif await self.is_valid_ollama_url(build_config[\"base_url\"].get(\"value\", \"\")):\n                build_config[\"model_name\"][\"options\"] = await self.get_model(build_config[\"base_url\"].get(\"value\", \"\"))\n            else:\n                build_config[\"model_name\"][\"options\"] = []\n\n        return build_config\n\n    async def get_model(self, base_url_value: str) -> list[str]:\n        \"\"\"Get the model names from Ollama.\"\"\"\n        model_ids = []\n        try:\n            url = urljoin(base_url_value, \"/api/tags\")\n            async with httpx.AsyncClient() as client:\n                response = await client.get(url)\n                response.raise_for_status()\n                data = response.json()\n\n            model_ids = [model[\"name\"] for model in data.get(\"models\", [])]\n            # this to ensure that not embedding models are included.\n            # not even the base models since models can have 1b 2b etc\n            # handles cases when embeddings models have tags like :latest - etc.\n            model_ids = [\n                model\n                for model in model_ids\n                if any(model.startswith(f\"{embedding_model}\") for embedding_model in OLLAMA_EMBEDDING_MODELS)\n            ]\n\n        except (ImportError, ValueError, httpx.RequestError) as e:\n            msg = \"Could not get model names from Ollama.\"\n            raise ValueError(msg) from e\n\n        return model_ids\n\n    async def is_valid_ollama_url(self, url: str) -> bool:\n        try:\n            async with httpx.AsyncClient() as client:\n                return (await client.get(f\"{url}/api/tags\")).status_code == HTTP_STATUS_OK\n        except httpx.RequestError:\n            return False\n"
+              },
+              "model_name": {
+                "_input_type": "DropdownInput",
+                "advanced": false,
+                "combobox": true,
+                "dialog_inputs": {},
+                "display_name": "Ollama Model",
+                "dynamic": false,
+                "info": "",
+                "name": "model_name",
+                "options": [
+                  "mxbai-embed-large:latest"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "refresh_button": true,
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "mxbai-embed-large:latest"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "OllamaEmbeddings"
+        },
+        "dragging": false,
+        "id": "OllamaEmbeddings-b2EkB",
+        "measured": {
+          "height": 309,
+          "width": 320
+        },
+        "position": {
+          "x": 728.9975144254142,
+          "y": 657.612616639174
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-zv6aa",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "display_name": "Folder File Reader",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "folder_name"
+            ],
+            "frozen": false,
+            "icon": "folder_open",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "File Contents (list[Data])",
+                "hidden": false,
+                "method": "build_output",
+                "name": "file_contents",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import os, base64\nfrom typing import List, Tuple\nimport fitz  # PyMuPDF\nfrom langflow.custom import Component\nfrom langflow.io import MessageTextInput, Output\nfrom langflow.schema import Data\n\nclass FolderFileReader(Component):\n    \"\"\"Read PDFs & TXTs, extract text + images, emit list[Data].\"\"\"\n\n    display_name = \"Folder File Reader\"\n    name = \"FolderFileReader\"\n    icon = \"folder_open\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"folder_name\",\n            display_name=\"Folder Name\",\n            value=\".\",\n            tool_mode=True,\n        )\n    ]\n    outputs = [\n        Output(\n            display_name=\"File Contents (list[Data])\",\n            name=\"file_contents\",\n            method=\"build_output\",\n        )\n    ]\n\n    # ------------------------------------------------------------------\n    def _pdf_to_text_and_images(self, path: str) -> tuple[str, list[Tuple[int, str]]]:\n        \"\"\"Return (text, [(page, b64)…]) for one PDF. Inserts \\f between pages!\"\"\"\n        text: str = \"\"\n        tagged_imgs: list[Tuple[int, str]] = []\n        doc = fitz.open(path)\n        for page_no, page in enumerate(doc, start=1):\n            # -- text ---------------------------------------------------\n            if (txt := page.get_text()):\n                if text:\n                    text += \"\\f\"   # <--- insert page break BEFORE each new page after first\n                text += txt\n            # -- every picture on that page ----------------------------\n            for xref, *_ in page.get_images(full=True):\n                img_bytes = doc.extract_image(xref)[\"image\"]\n                b64 = base64.b64encode(img_bytes).decode()\n                tagged_imgs.append((page_no, b64))   # ⭐ tag with page #\n        return text, tagged_imgs\n\n    # ------------------------------------------------------------------\n    def build_output(self) -> List[Data]:\n        folder = self.folder_name.strip()\n        if not os.path.isdir(folder):\n            raise FileNotFoundError(folder)\n\n        items: List[Data] = []\n        for fname in sorted(os.listdir(folder)):\n            fpath = os.path.join(folder, fname)\n            if not os.path.isfile(fpath):\n                continue\n\n            ext = os.path.splitext(fname)[1].lower()\n            text, images = \"\", []\n\n            if ext == \".pdf\":\n                try:\n                    text, images = self._pdf_to_text_and_images(fpath)\n                except Exception as e:\n                    text = f\"<Could not read {fname}: {e}>\"\n                    images = []\n            elif ext == \".txt\":\n                try:\n                    with open(fpath, \"r\", encoding=\"utf-8\") as f:\n                        text = f.read()\n                except Exception:\n                    text = f\"<Unreadable TXT: {fname}>\"\n                    images = []\n            else:\n                text = f\"<Unsupported file: {fname}>\"\n                images = []\n\n            d = Data(text=text, metadata={\"images\": images, \"filename\": fname})\n            d.text_key = \"text\"\n            items.append(d)\n\n            print(f\"[FolderFileReader] {fname}: text_len={len(text):,}  images={len(images)}\")\n\n        print(f\"[FolderFileReader] Total files processed: {len(items)}\")\n        return items\n"
+              },
+              "folder_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Folder Name",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "folder_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "FolderFileReader"
+        },
+        "dragging": false,
+        "id": "CustomComponent-zv6aa",
+        "measured": {
+          "height": 192,
+          "width": 320
+        },
+        "position": {
+          "x": -320.8455317059267,
+          "y": -203.48040440805897
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatInput-SL4iy",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Get chat inputs from the Playground.",
+            "display_name": "Chat Input",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "files",
+              "background_color",
+              "chat_icon",
+              "text_color"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.4.2",
+            "metadata": {},
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "hidden": false,
+                "method": "message_response",
+                "name": "message",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "sessionID",
+                "hidden": false,
+                "method": "sessionID_fetcher",
+                "name": "sessionID",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.base.data.utils import IMG_FILE_TYPES, TEXT_FILE_TYPES\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs import BoolInput\nfrom langflow.io import (\n    DropdownInput,\n    FileInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n)\nfrom langflow.schema.message import Message\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_USER,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatInput(ChatComponent):\n    display_name = \"Chat Input\"\n    description = \"Get chat inputs from the Playground.\"\n    icon = \"MessagesSquare\"\n    name = \"ChatInput\"\n    minimized = True\n\n    inputs = [\n        MultilineInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            value=\"\",\n            info=\"Message to be passed as input.\",\n            input_types=[],\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_USER,\n            info=\"Type of sender.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_USER,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        FileInput(\n            name=\"files\",\n            display_name=\"Files\",\n            file_types=TEXT_FILE_TYPES + IMG_FILE_TYPES,\n            info=\"Files to be sent with the message.\",\n            advanced=True,\n            is_list=True,\n            temp_file=True,\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(display_name=\"Message\", name=\"message\", method=\"message_response\"),\n        Output(display_name=\"sessionID\", name=\"sessionID\", method=\"sessionID_fetcher\"),\n    ]\n    \n    async def sessionID_fetcher(self) -> Message:\n        return self.session_id\n\n    async def message_response(self) -> Message:\n        background_color = self.background_color\n        text_color = self.text_color\n        icon = self.chat_icon\n\n        message = await Message.create(\n            text=self.input_value,\n            sender=self.sender,\n            sender_name=self.sender_name,\n            session_id=self.session_id,\n            files=self.files,\n            properties={\n                \"background_color\": background_color,\n                \"text_color\": text_color,\n                \"icon\": icon,\n            },\n        )\n        if self.session_id and isinstance(message, Message) and self.should_store_message:\n            stored_message = await self.send_message(\n                message,\n            )\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n"
+              },
+              "files": {
+                "_input_type": "FileInput",
+                "advanced": true,
+                "display_name": "Files",
+                "dynamic": false,
+                "fileTypes": [
+                  "txt",
+                  "md",
+                  "mdx",
+                  "csv",
+                  "json",
+                  "yaml",
+                  "yml",
+                  "xml",
+                  "html",
+                  "htm",
+                  "pdf",
+                  "docx",
+                  "py",
+                  "sh",
+                  "sql",
+                  "js",
+                  "ts",
+                  "tsx",
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "bmp",
+                  "image"
+                ],
+                "file_path": "",
+                "info": "Files to be sent with the message.",
+                "list": true,
+                "list_add_label": "Add More",
+                "name": "files",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "temp_file": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "file",
+                "value": ""
+              },
+              "input_value": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Message to be passed as input.",
+                "input_types": [],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "input_value",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "User"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "User"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ChatInput"
+        },
+        "dragging": false,
+        "id": "ChatInput-SL4iy",
+        "measured": {
+          "height": 275,
+          "width": 320
+        },
+        "position": {
+          "x": -1013.6541646646276,
+          "y": 1.608928538125106
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-bndnz",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Creates a cosine-vector search index on a specified MongoDB collection.",
+            "display_name": "Create Cosine Vector Index",
+            "documentation": "https://docs.mongodb.com/manual/core/search-index-vector/",
+            "edited": true,
+            "field_order": [
+              "collection_name"
+            ],
+            "frozen": false,
+            "icon": "database",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Output",
+                "hidden": false,
+                "method": "build_output",
+                "name": "output",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from pymongo.mongo_client import MongoClient\nfrom pymongo.server_api import ServerApi\nfrom pymongo.operations import SearchIndexModel\nfrom langflow.custom import Component\nfrom langflow.io import MessageTextInput, Output\nfrom langflow.schema import Message\n\n\nclass CreateCosineVectorIndex(Component):\n    \"\"\"\n    Connect to MongoDB Atlas, ping the server, ensure the target collection exists,\n    and create a cosine-vector search index on its embedding field.\n    Returns a Message with success/failure text.\n    \"\"\"\n\n    display_name = \"Create Cosine Vector Index\"\n    name = \"CreateCosineVectorIndex\"\n    icon = \"database\"\n    description = \"Creates a cosine-vector search index on a specified MongoDB collection.\"\n    documentation = \"https://docs.mongodb.com/manual/core/search-index-vector/\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"collection_name\",\n            display_name=\"Collection Name\",\n            info=\"Name of the MongoDB collection to index\",\n            value=\"myCollection\",\n            tool_mode=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Output\", name=\"output\", method=\"build_output\"),\n    ]\n\n    def build_output(self) -> Message:\n        # unwrap MessageTextInput -> str\n        coll_name = (\n            self.collection_name.content\n            if hasattr(self.collection_name, \"content\")\n            else self.collection_name\n        ).strip()\n        idx_name = \"cosine_vector_index\"\n\n        uri = (\n            \"mongodb+srv://beprith99:jMRmGQtfiA5jPucu\"\n            \"@ot-service-bot.9cpfrsr.mongodb.net/\"\n            \"?retryWrites=true&w=majority&appName=OT-Service-Bot\"\n        )\n\n        client = MongoClient(uri, server_api=ServerApi(\"1\"))\n        try:\n            # 1) Ping\n            try:\n                client.admin.command(\"ping\")\n            except Exception as ping_err:\n                return Message(role=\"assistant\", content=f\"❌ Ping failed: {ping_err}\")\n\n            db = client[\"ot-service\"]\n\n            # 2) Ensure collection exists\n            if coll_name not in db.list_collection_names():\n                try:\n                    db.create_collection(coll_name)\n                except Exception as ce_err:\n                    return Message(\n                        role=\"assistant\",\n                        content=f\"❌ Could not create collection {coll_name}: {ce_err}\",\n                    )\n\n            collection = db[coll_name]\n\n            # 3) Define and create the vectorSearch index\n            idx_def = SearchIndexModel(\n                definition={\n                    \"fields\": [\n                        {\n                            \"type\": \"vector\",\n                            \"path\": \"embedding\",\n                            \"numDimensions\": 1024,\n                            \"similarity\": \"cosine\",\n                        }\n                    ]\n                },\n                name=idx_name,\n                type=\"vectorSearch\",\n            )\n\n            try:\n                result = collection.create_search_index(idx_def)\n                print(result)\n                return Message(\n                    role=\"assistant\",\n                    content=f\"✅ Index {idx_name} created on {coll_name}: {result}\",\n                )\n            except Exception as idx_err:\n                return Message(\n                    role=\"assistant\",\n                    content=f\"❌ Failed to create index {idx_name}: {idx_err}\",\n                )\n\n        finally:\n            client.close()"
+              },
+              "collection_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Collection Name",
+                "dynamic": false,
+                "info": "Name of the MongoDB collection to index",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "collection_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "CreateCosineVectorIndex"
+        },
+        "dragging": false,
+        "id": "CustomComponent-bndnz",
+        "measured": {
+          "height": 248,
+          "width": 320
+        },
+        "position": {
+          "x": -16.35095089160893,
+          "y": 391.5495305834453
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SplitText-j954x",
+          "node": {
+            "base_classes": [
+              "Data",
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "display_name": "Split Text",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "data_inputs",
+              "chunk_overlap",
+              "chunk_size",
+              "separator",
+              "keep_separator"
+            ],
+            "frozen": false,
+            "icon": "scissors-line-dashed",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "chunks",
+                "hidden": false,
+                "method": "split_text",
+                "name": "chunks",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "dataframe",
+                "hidden": null,
+                "method": "as_dataframe",
+                "name": "dataframe",
+                "options": null,
+                "required_inputs": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "chunk_overlap": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chunk_overlap",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 100
+              },
+              "chunk_size": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "dynamic": false,
+                "info": "",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "chunk_size",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 1000
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "# split_text_component.py\nfrom typing import List\nfrom langchain_text_splitters import CharacterTextSplitter\nfrom langflow.custom import Component\nfrom langflow.io import (\n    HandleInput,\n    IntInput,\n    MessageTextInput,\n    DropdownInput,\n    Output,\n)\nfrom langflow.schema import Data, DataFrame\nfrom langflow.utils.util import unescape_string\n\nclass SplitTextComponent(Component):\n    display_name = \"Split Text\"\n    name = \"SplitText\"\n    icon = \"scissors-line-dashed\"\n\n    inputs = [\n        HandleInput(name=\"data_inputs\", input_types=[\"Data\", \"DataFrame\"], required=True),\n        IntInput(name=\"chunk_overlap\", value=200),\n        IntInput(name=\"chunk_size\", value=1000),\n        MessageTextInput(name=\"separator\", value=\"\\n\"),\n        DropdownInput(\n            name=\"keep_separator\",\n            options=[\"False\", \"True\", \"Start\", \"End\"],\n            value=\"False\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(name=\"chunks\", method=\"split_text\"),\n        Output(name=\"dataframe\", method=\"as_dataframe\"),\n    ]\n\n    # -- CORE LOGIC: split text and preserve original metadata per chunk\n    def split_text(self) -> List[Data]:\n        sep = unescape_string(self.separator)\n        keep = {\"false\": False, \"true\": True}.get(\n            self.keep_separator.lower(), self.keep_separator\n        )\n\n        # Prepare input Data objects\n        if isinstance(self.data_inputs, DataFrame):\n            self.data_inputs.text_key = \"text\"\n            orig_docs = self.data_inputs.to_data_list()\n        elif isinstance(self.data_inputs, Data):\n            orig_docs = [self.data_inputs]\n        else:\n            orig_docs = [d for d in self.data_inputs if isinstance(d, Data)]\n\n        all_chunks: List[Data] = []\n        splitter = CharacterTextSplitter(\n            chunk_size=self.chunk_size,\n            chunk_overlap=self.chunk_overlap,\n            separator=sep,\n            keep_separator=keep,\n        )\n\n        for doc in orig_docs:\n            # Split the text of THIS doc, copy its metadata to every chunk\n            splits = splitter.split_text(doc.text)\n            for chunk_text in splits:\n                chunk = Data(\n                    text=chunk_text,\n                    metadata=doc.metadata.copy() if doc.metadata else {},\n                )\n                chunk.text_key = \"text\"\n                all_chunks.append(chunk)\n\n        preview = (all_chunks[0].text[:60].replace(\"\\n\", \" \") + \"…\") if all_chunks else \"<no chunks>\"\n        print(f\"[SplitText] generated {len(all_chunks)} chunks; preview: {preview}\")\n        for i, d in enumerate(all_chunks):\n            print(f\"[SplitText] output chunk {i}: metadata={d.metadata}\")\n        return all_chunks\n\n    def as_dataframe(self) -> DataFrame:\n        return DataFrame(self.split_text())\n"
+              },
+              "data_inputs": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "data_inputs",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "keep_separator": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "dynamic": false,
+                "info": "",
+                "name": "keep_separator",
+                "options": [
+                  "False",
+                  "True",
+                  "Start",
+                  "End"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "False"
+              },
+              "separator": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "separator",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "\\n"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SplitText"
+        },
+        "dragging": false,
+        "id": "SplitText-j954x",
+        "measured": {
+          "height": 451,
+          "width": 320
+        },
+        "position": {
+          "x": 672.7681332669451,
+          "y": -253.17083198984247
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ParserComponent-62CBQ",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "display_name": "Parser",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "mode",
+              "pattern",
+              "input_data",
+              "images_field"
+            ],
+            "frozen": false,
+            "icon": "braces",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Data list",
+                "hidden": false,
+                "method": "parse_items",
+                "name": "parsed",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import json\nfrom typing import Any, List\nfrom langflow.custom import Component\nfrom langflow.io import (\n    HandleInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n    TabInput,\n)\nfrom langflow.schema import Data, DataFrame\nfrom langflow.schema.message import Message\n\nclass ParserComponent(Component):\n    display_name = \"Parser\"\n    icon = \"braces\"\n\n    inputs = [\n        TabInput(name=\"mode\", options=[\"Template\", \"Stringify\"], value=\"Template\"),\n        MultilineInput(name=\"pattern\", value=\"{text}\\n\\n{markdown_image}\"),\n        HandleInput(name=\"input_data\", input_types=[\"Data\", \"DataFrame\"], required=True),\n        MessageTextInput(\n            name=\"images_field\",\n            value=\"images\",\n            advanced=True,\n        ),\n    ]\n    outputs = [Output(display_name=\"Data list\", name=\"parsed\", method=\"parse_items\")]\n\n    def _as_list(self) -> List[Data]:\n        inp = self.input_data\n        if isinstance(inp, DataFrame):\n            inp.text_key = \"text\"\n            return [row for row in inp.to_data_list()]\n        if isinstance(inp, Data):\n            return [inp]\n        if isinstance(inp, list):\n            return [d for d in inp if isinstance(d, Data)]\n        raise TypeError(\"Unsupported input for Parser\")\n\n    @staticmethod\n    def _md(imgs):\n        # Return the first image as Markdown img tag, or \"\" if none\n        if isinstance(imgs, list) and imgs:\n            # If imgs[0] is a tuple like (page_num, b64), use imgs[0][1]\n            b64 = imgs[0][1] if isinstance(imgs[0], (list, tuple)) else imgs[0]\n            return (\n                f'<img src=\"data:image/png;base64,{b64}\" '\n                'style=\"max-width:250px;border:1px solid #ccc;\" />'\n            )\n        return \"\"\n\n    def parse_items(self) -> List[Data]:\n        items: List[Data] = []\n        for d in self._as_list():\n            meta = d.metadata or {}\n            page_idx = meta.get(\"page_idx\")\n\n            # Debug: Show exactly what’s here\n            print(f\"[Parser] page_idx={page_idx}, meta_images={meta.get(self.images_field)}\")\n\n            # Safely get images list from metadata (prefer as list of (page, b64))\n            all_imgs = (\n                meta.get(self.images_field)\n                or meta.get(\"source\", {}).get(self.images_field)\n                or (d.data or {}).get(self.images_field, [])\n            )\n            img_list = []\n            # Defensive: only iterate if list and items are tuples of (page_idx, b64)\n            if isinstance(all_imgs, list):\n                img_list = [b64 for pg, b64 in all_imgs if pg == page_idx]\n                if not img_list and all_imgs:\n                    # fallback: take first image in all_imgs\n                    if isinstance(all_imgs[0], tuple):\n                        img_list = [all_imgs[0][1]]\n                    elif isinstance(all_imgs[0], str):\n                        img_list = [all_imgs[0]]\n\n            md_img = self._md(img_list)\n\n            merged = {**meta, **(d.data or {}), \"markdown_image\": md_img}\n            rendered = self.pattern.format(**merged)\n\n            chunk = Data(text=d.text, metadata={**merged, \"rendered\": rendered})\n            chunk.text_key = \"text\"\n            items.append(chunk)\n\n            print(\n                \"[Parser] chunk preview:\",\n                chunk.text[:60].replace(\"\\n\", \" \") + \"…\",\n                \"images in chunk:\",\n                len(img_list),\n            )\n\n        print(f\"[Parser] total items out: {len(items)}\")\n        return items\n\n    @staticmethod\n    def _safe_convert(obj: Any) -> str:\n        if isinstance(obj, (Data, Message)):\n            return json.dumps(obj.data if isinstance(obj, Data) else obj.get_text())\n        if isinstance(obj, DataFrame):\n            return obj.to_markdown(index=False)\n        return str(obj)\n"
+              },
+              "images_field": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "images_field",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "images"
+              },
+              "input_data": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_data",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "mode": {
+                "_input_type": "TabInput",
+                "advanced": false,
+                "dynamic": false,
+                "info": "",
+                "name": "mode",
+                "options": [
+                  "Template",
+                  "Stringify"
+                ],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "tab",
+                "value": "Template"
+              },
+              "pattern": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "pattern",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ParserComponent"
+        },
+        "dragging": false,
+        "id": "ParserComponent-62CBQ",
+        "measured": {
+          "height": 319,
+          "width": 320
+        },
+        "position": {
+          "x": 1155.6529324319204,
+          "y": -89.2333970047204
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ChatOutput-SOiZB",
+          "node": {
+            "base_classes": [
+              "Message"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Display a chat message in the Playground.",
+            "display_name": "Chat Output",
+            "documentation": "",
+            "edited": false,
+            "field_order": [
+              "input_value",
+              "should_store_message",
+              "sender",
+              "sender_name",
+              "session_id",
+              "data_template",
+              "background_color",
+              "chat_icon",
+              "text_color",
+              "clean_data"
+            ],
+            "frozen": false,
+            "icon": "MessagesSquare",
+            "legacy": false,
+            "lf_version": "1.4.2",
+            "metadata": {},
+            "minimized": true,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Message",
+                "method": "message_response",
+                "name": "message",
+                "selected": "Message",
+                "tool_mode": true,
+                "types": [
+                  "Message"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "background_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Background Color",
+                "dynamic": false,
+                "info": "The background color of the icon.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "background_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "chat_icon": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Icon",
+                "dynamic": false,
+                "info": "The icon of the message.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chat_icon",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Basic Clean Data",
+                "dynamic": false,
+                "info": "Whether to clean the data",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from collections.abc import Generator\nfrom typing import Any\n\nfrom langflow.base.io.chat import ChatComponent\nfrom langflow.inputs import BoolInput\nfrom langflow.inputs.inputs import HandleInput\nfrom langflow.io import DropdownInput, MessageTextInput, Output\nfrom langflow.schema.data import Data\nfrom langflow.schema.dataframe import DataFrame\nfrom langflow.schema.message import Message\nfrom langflow.schema.properties import Source\nfrom langflow.utils.constants import (\n    MESSAGE_SENDER_AI,\n    MESSAGE_SENDER_NAME_AI,\n    MESSAGE_SENDER_USER,\n)\n\n\nclass ChatOutput(ChatComponent):\n    display_name = \"Chat Output\"\n    description = \"Display a chat message in the Playground.\"\n    icon = \"MessagesSquare\"\n    name = \"ChatOutput\"\n    minimized = True\n\n    inputs = [\n        HandleInput(\n            name=\"input_value\",\n            display_name=\"Text\",\n            info=\"Message to be passed as output.\",\n            input_types=[\"Data\", \"DataFrame\", \"Message\"],\n            required=True,\n        ),\n        BoolInput(\n            name=\"should_store_message\",\n            display_name=\"Store Messages\",\n            info=\"Store the message in the history.\",\n            value=True,\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"sender\",\n            display_name=\"Sender Type\",\n            options=[MESSAGE_SENDER_AI, MESSAGE_SENDER_USER],\n            value=MESSAGE_SENDER_AI,\n            advanced=True,\n            info=\"Type of sender.\",\n        ),\n        MessageTextInput(\n            name=\"sender_name\",\n            display_name=\"Sender Name\",\n            info=\"Name of the sender.\",\n            value=MESSAGE_SENDER_NAME_AI,\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"session_id\",\n            display_name=\"Session ID\",\n            info=\"The session ID of the chat. If empty, the current session ID parameter will be used.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"data_template\",\n            display_name=\"Data Template\",\n            value=\"{text}\",\n            advanced=True,\n            info=\"Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.\",\n        ),\n        MessageTextInput(\n            name=\"background_color\",\n            display_name=\"Background Color\",\n            info=\"The background color of the icon.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"chat_icon\",\n            display_name=\"Icon\",\n            info=\"The icon of the message.\",\n            advanced=True,\n        ),\n        MessageTextInput(\n            name=\"text_color\",\n            display_name=\"Text Color\",\n            info=\"The text color of the name\",\n            advanced=True,\n        ),\n        BoolInput(\n            name=\"clean_data\",\n            display_name=\"Basic Clean Data\",\n            value=True,\n            info=\"Whether to clean the data\",\n            advanced=True,\n        ),\n    ]\n    outputs = [\n        Output(\n            display_name=\"Message\",\n            name=\"message\",\n            method=\"message_response\",\n        ),\n    ]\n\n    def _build_source(self, id_: str | None, display_name: str | None, source: str | None) -> Source:\n        source_dict = {}\n        if id_:\n            source_dict[\"id\"] = id_\n        if display_name:\n            source_dict[\"display_name\"] = display_name\n        if source:\n            # Handle case where source is a ChatOpenAI object\n            if hasattr(source, \"model_name\"):\n                source_dict[\"source\"] = source.model_name\n            elif hasattr(source, \"model\"):\n                source_dict[\"source\"] = str(source.model)\n            else:\n                source_dict[\"source\"] = str(source)\n        return Source(**source_dict)\n\n    async def message_response(self) -> Message:\n        # First convert the input to string if needed\n        text = self.convert_to_string()\n        # Get source properties\n        source, icon, display_name, source_id = self.get_properties_from_source_component()\n        background_color = self.background_color\n        text_color = self.text_color\n        if self.chat_icon:\n            icon = self.chat_icon\n\n        # Create or use existing Message object\n        if isinstance(self.input_value, Message):\n            message = self.input_value\n            # Update message properties\n            message.text = text\n        else:\n            message = Message(text=text)\n\n        # Set message properties\n        message.sender = self.sender\n        message.sender_name = self.sender_name\n        message.session_id = self.session_id\n        message.flow_id = self.graph.flow_id if hasattr(self, \"graph\") else None\n        message.properties.source = self._build_source(source_id, display_name, source)\n        message.properties.icon = icon\n        message.properties.background_color = background_color\n        message.properties.text_color = text_color\n\n        # Store message if needed\n        if self.session_id and self.should_store_message:\n            stored_message = await self.send_message(message)\n            self.message.value = stored_message\n            message = stored_message\n\n        self.status = message\n        return message\n\n    def _validate_input(self) -> None:\n        \"\"\"Validate the input data and raise ValueError if invalid.\"\"\"\n        if self.input_value is None:\n            msg = \"Input data cannot be None\"\n            raise ValueError(msg)\n        if isinstance(self.input_value, list) and not all(\n            isinstance(item, Message | Data | DataFrame | str) for item in self.input_value\n        ):\n            invalid_types = [\n                type(item).__name__\n                for item in self.input_value\n                if not isinstance(item, Message | Data | DataFrame | str)\n            ]\n            msg = f\"Expected Data or DataFrame or Message or str, got {invalid_types}\"\n            raise TypeError(msg)\n        if not isinstance(\n            self.input_value,\n            Message | Data | DataFrame | str | list | Generator | type(None),\n        ):\n            type_name = type(self.input_value).__name__\n            msg = f\"Expected Data or DataFrame or Message or str, Generator or None, got {type_name}\"\n            raise TypeError(msg)\n\n    def _safe_convert(self, data: Any) -> str:\n        \"\"\"Safely convert input data to string.\"\"\"\n        try:\n            if isinstance(data, str):\n                return data\n            if isinstance(data, Message):\n                return data.get_text()\n            if isinstance(data, Data):\n                if data.get_text() is None:\n                    msg = \"Empty Data object\"\n                    raise ValueError(msg)\n                return data.get_text()\n            if isinstance(data, DataFrame):\n                if self.clean_data:\n                    # Remove empty rows\n                    data = data.dropna(how=\"all\")\n                    # Remove empty lines in each cell\n                    data = data.replace(r\"^\\s*$\", \"\", regex=True)\n                    # Replace multiple newlines with a single newline\n                    data = data.replace(r\"\\n+\", \"\\n\", regex=True)\n\n                # Replace pipe characters to avoid markdown table issues\n                processed_data = data.replace(r\"\\|\", r\"\\\\|\", regex=True)\n\n                processed_data = processed_data.map(\n                    lambda x: str(x).replace(\"\\n\", \"<br/>\") if isinstance(x, str) else x\n                )\n\n                return processed_data.to_markdown(index=False)\n            return str(data)\n        except (ValueError, TypeError, AttributeError) as e:\n            msg = f\"Error converting data: {e!s}\"\n            raise ValueError(msg) from e\n\n    def convert_to_string(self) -> str | Generator[Any, None, None]:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        self._validate_input()\n        if isinstance(self.input_value, list):\n            return \"\\n\".join([self._safe_convert(item) for item in self.input_value])\n        if isinstance(self.input_value, Generator):\n            return self.input_value\n        return self._safe_convert(self.input_value)\n"
+              },
+              "data_template": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Data Template",
+                "dynamic": false,
+                "info": "Template to convert Data to Text. If left empty, it will be dynamically set to the Data's text key.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "data_template",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "{text}"
+              },
+              "input_value": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Text",
+                "dynamic": false,
+                "info": "Message to be passed as output.",
+                "input_types": [
+                  "Data",
+                  "DataFrame",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_value",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "sender": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Sender Type",
+                "dynamic": false,
+                "info": "Type of sender.",
+                "name": "sender",
+                "options": [
+                  "Machine",
+                  "User"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "Machine"
+              },
+              "sender_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Sender Name",
+                "dynamic": false,
+                "info": "Name of the sender.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sender_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "AI"
+              },
+              "session_id": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Session ID",
+                "dynamic": false,
+                "info": "The session ID of the chat. If empty, the current session ID parameter will be used.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "session_id",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "should_store_message": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Store Messages",
+                "dynamic": false,
+                "info": "Store the message in the history.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "should_store_message",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "text_color": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Color",
+                "dynamic": false,
+                "info": "The text color of the name",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_color",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": false,
+          "type": "ChatOutput"
+        },
+        "id": "ChatOutput-SOiZB",
+        "measured": {
+          "height": 65,
+          "width": 192
+        },
+        "position": {
+          "x": 378.36407296391303,
+          "y": 530.3795940194256
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "FolderFileReader-V4oAk",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Given a folder path, read every file in it and output their contents.",
+            "display_name": "Folder File Reader",
+            "documentation": "https://docs.langflow.org/components-custom-components",
+            "edited": true,
+            "field_order": [
+              "folder_name"
+            ],
+            "frozen": false,
+            "icon": "folder_open",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "File Contents",
+                "hidden": false,
+                "method": "build_output",
+                "name": "file_contents",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import os\nfrom PyPDF2 import PdfReader\nfrom langflow.custom import Component\nfrom langflow.io import MessageTextInput, Output\nfrom langflow.schema import Data\n\n\nclass FolderFileReader(Component):\n    \"\"\"\n    Reads all files from a folder whose path is provided as input,\n    and outputs a list of {filename, content} dicts.\n    - For .pdf files: extracts text via PyPDF2.\n    - For other files: attempts utf-8 text read.\n    - Skips unreadable binaries with a notice.\n    \"\"\"\n\n    display_name = \"Folder File Reader\"\n    name = \"FolderFileReader\"\n    icon = \"folder_open\"\n    description = \"Given a folder path, read every file in it and output their contents.\"\n    documentation = \"https://docs.langflow.org/components-custom-components\"\n\n    inputs = [\n        MessageTextInput(\n            name=\"folder_name\",\n            display_name=\"Folder Name\",\n            info=\"Path to the folder you want to read files from\",\n            value=\".\",  # default to current directory\n            tool_mode=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"File Contents\", name=\"file_contents\", method=\"build_output\"),\n    ]\n\n    def build_output(self) -> Data:\n        folder = self.folder_name.strip()\n        if not os.path.isdir(folder):\n            raise FileNotFoundError(f\"Folder not found: {folder}\")\n\n        items = []\n        for fname in sorted(os.listdir(folder)):\n            fpath = os.path.join(folder, fname)\n            if not os.path.isfile(fpath):\n                continue\n\n            _, ext = os.path.splitext(fname.lower())\n            content = \"\"\n            if ext == \".pdf\":\n                # PDF: extract text\n                try:\n                    reader = PdfReader(fpath)\n                    for page in reader.pages:\n                        text = page.extract_text()\n                        if text:\n                            content += text\n                except Exception as e:\n                    content = f\"<Could not extract PDF '{fname}': {e}>\"\n\n            else:\n                # Try reading as utf-8 text\n                try:\n                    with open(fpath, \"r\", encoding=\"utf-8\") as f:\n                        content = f.read()\n                except Exception:\n                    content = f\"<Binary or unreadable file skipped: {fname}>\"\n\n            items.append({\"content\": content})\n\n        return Data(value=items)"
+              },
+              "folder_name": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Folder Name",
+                "dynamic": false,
+                "info": "Path to the folder you want to read files from",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "folder_name",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": true,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "FolderFileReader"
+        },
+        "dragging": false,
+        "id": "FolderFileReader-V4oAk",
+        "measured": {
+          "height": 244,
+          "width": 320
+        },
+        "position": {
+          "x": -93.49168122308642,
+          "y": 1328.917897413657
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "ParserComponent-ibRKe",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Format a DataFrame or Data object into text using a template. Enable 'Stringify' to convert input into a readable string instead.",
+            "display_name": "Parser",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "mode",
+              "pattern",
+              "input_data",
+              "sep"
+            ],
+            "frozen": false,
+            "icon": "braces",
+            "legacy": false,
+            "lf_version": "1.4.2",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Parsed Text",
+                "hidden": false,
+                "method": "parse_combined_text",
+                "name": "parsed_text",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "clean_data": {
+                "_input_type": "BoolInput",
+                "advanced": true,
+                "display_name": "Clean Data",
+                "dynamic": false,
+                "info": "Enable to clean the data by removing empty rows and lines in each cell of the DataFrame/ Data object.",
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "clean_data",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "bool",
+                "value": true
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "import json\nfrom typing import Any\n\nfrom langflow.custom import Component\nfrom langflow.io import (\n    BoolInput,\n    HandleInput,\n    MessageTextInput,\n    MultilineInput,\n    Output,\n    TabInput,\n)\nfrom langflow.schema import Data, DataFrame\nfrom langflow.schema.message import Message\n\n\nclass ParserComponent(Component):\n    display_name = \"Parser\"\n    description = (\n        \"Format a DataFrame or Data object into text using a template. \"\n        \"Enable 'Stringify' to convert input into a readable string instead.\"\n    )\n    icon = \"braces\"\n\n    inputs = [\n        TabInput(\n            name=\"mode\",\n            display_name=\"Mode\",\n            options=[\"Parser\", \"Stringify\"],\n            value=\"Parser\",\n            info=\"Convert into raw string instead of using a template.\",\n            real_time_refresh=True,\n        ),\n        MultilineInput(\n            name=\"pattern\",\n            display_name=\"Template\",\n            info=(\n                \"Use variables within curly brackets to extract column values for DataFrames \"\n                \"or key values for Data.\"\n                \"For example: `Name: {Name}, Age: {Age}, Country: {Country}`\"\n            ),\n            value=\"Text: {text}\",  # Example default\n            dynamic=True,\n            show=True,\n            required=True,\n        ),\n        HandleInput(\n            name=\"input_data\",\n            display_name=\"Data or DataFrame\",\n            input_types=[\"DataFrame\", \"Data\",\"Message\"],\n            info=\"Accepts either a DataFrame or a Data object.\",\n            required=True,\n        ),\n        MessageTextInput(\n            name=\"sep\",\n            display_name=\"Separator\",\n            advanced=True,\n            value=\"\\n\",\n            info=\"String used to separate rows/items.\",\n        ),\n    ]\n\n    outputs = [\n        Output(\n            display_name=\"Parsed Text\",\n            name=\"parsed_text\",\n            info=\"Formatted text output.\",\n            method=\"parse_combined_text\",\n        ),\n    ]\n\n    def update_build_config(self, build_config, field_value, field_name=None):\n        \"\"\"Dynamically hide/show `template` and enforce requirement based on `stringify`.\"\"\"\n        if field_name == \"mode\":\n            build_config[\"pattern\"][\"show\"] = self.mode == \"Parser\"\n            build_config[\"pattern\"][\"required\"] = self.mode == \"Parser\"\n            if field_value:\n                clean_data = BoolInput(\n                    name=\"clean_data\",\n                    display_name=\"Clean Data\",\n                    info=(\n                        \"Enable to clean the data by removing empty rows and lines \"\n                        \"in each cell of the DataFrame/ Data object.\"\n                    ),\n                    value=True,\n                    advanced=True,\n                    required=False,\n                )\n                build_config[\"clean_data\"] = clean_data.to_dict()\n            else:\n                build_config.pop(\"clean_data\", None)\n\n        return build_config\n\n    def _clean_args(self):\n        \"\"\"Prepare arguments based on input type.\"\"\"\n        input_data = self.input_data\n\n        match input_data:\n            case list() if all(isinstance(item, Data) for item in input_data):\n                msg = \"List of Data objects is not supported.\"\n                raise ValueError(msg)\n            case DataFrame():\n                return input_data, None\n            case Data():\n                return None, input_data\n            case dict() if \"data\" in input_data:\n                try:\n                    if \"columns\" in input_data:  # Likely a DataFrame\n                        return DataFrame.from_dict(input_data), None\n                    # Likely a Data object\n                    return None, Data(**input_data)\n                except (TypeError, ValueError, KeyError) as e:\n                    msg = f\"Invalid structured input provided: {e!s}\"\n                    raise ValueError(msg) from e\n            case _:\n                msg = f\"Unsupported input type: {type(input_data)}. Expected DataFrame or Data.\"\n                raise ValueError(msg)\n\n    def parse_combined_text(self) -> Data:\n        \"\"\"Parse all rows/items into a single text or convert input to string if `stringify` is enabled.\"\"\"\n        # Early return for stringify option\n        if self.mode == \"Stringify\":\n            return self.convert_to_string()\n\n        df, data = self._clean_args()\n\n        lines = []\n        if df is not None:\n            for _, row in df.iterrows():\n                formatted_text = self.pattern.format(**row.to_dict())\n                lines.append(formatted_text)\n        elif data is not None:\n            formatted_text = self.pattern.format(**data.data)\n            lines.append(formatted_text)\n\n        combined_text = self.sep.join(lines)\n        self.status = combined_text\n        return Data(data=combined_text)\n\n    def _safe_convert(self, data: Any) -> str:\n        \"\"\"Safely convert input data to string.\"\"\"\n        try:\n            if isinstance(data, str):\n                return data\n            if isinstance(data, Message):\n                return data.get_text()\n            if isinstance(data, Data):\n                return json.dumps(data.data)\n            if isinstance(data, DataFrame):\n                if hasattr(self, \"clean_data\") and self.clean_data:\n                    # Remove empty rows\n                    data = data.dropna(how=\"all\")\n                    # Remove empty lines in each cell\n                    data = data.replace(r\"^\\s*$\", \"\", regex=True)\n                    # Replace multiple newlines with a single newline\n                    data = data.replace(r\"\\n+\", \"\\n\", regex=True)\n                return data.to_markdown(index=False)\n            return str(data)\n        except (ValueError, TypeError, AttributeError) as e:\n            msg = f\"Error converting data: {e!s}\"\n            raise ValueError(msg) from e\n\n    def convert_to_string(self) -> Message:\n        \"\"\"Convert input data to string with proper error handling.\"\"\"\n        result = \"\"\n        if isinstance(self.input_data, list):\n            result = \"\\n\".join([self._safe_convert(item) for item in self.input_data])\n        else:\n            result = self._safe_convert(self.input_data)\n        self.log(f\"Converted to string with length: {len(result)}\")\n\n        message = Message(text=result)\n        self.status = message\n        return message\n"
+              },
+              "input_data": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Data or DataFrame",
+                "dynamic": false,
+                "info": "Accepts either a DataFrame or a Data object.",
+                "input_types": [
+                  "DataFrame",
+                  "Data",
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "input_data",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "mode": {
+                "_input_type": "TabInput",
+                "advanced": false,
+                "display_name": "Mode",
+                "dynamic": false,
+                "info": "Convert into raw string instead of using a template.",
+                "load_from_db": false,
+                "name": "mode",
+                "options": [
+                  "Parser",
+                  "Stringify"
+                ],
+                "placeholder": "",
+                "real_time_refresh": true,
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "tab",
+                "value": "Stringify"
+              },
+              "pattern": {
+                "_input_type": "MultilineInput",
+                "advanced": false,
+                "copy_field": false,
+                "display_name": "Template",
+                "dynamic": true,
+                "info": "Use variables within curly brackets to extract column values for DataFrames or key values for Data.For example: `Name: {Name}, Age: {Age}, Country: {Country}`",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "multiline": true,
+                "name": "pattern",
+                "placeholder": "",
+                "required": false,
+                "show": false,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": ""
+              },
+              "sep": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Separator",
+                "dynamic": false,
+                "info": "String used to separate rows/items.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "sep",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "\n"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "ParserComponent"
+        },
+        "dragging": false,
+        "id": "ParserComponent-ibRKe",
+        "measured": {
+          "height": 310,
+          "width": 320
+        },
+        "position": {
+          "x": 478.0389592486572,
+          "y": 1359.2118669892368
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "SplitText-XlRyY",
+          "node": {
+            "base_classes": [
+              "Data",
+              "DataFrame"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Split text into chunks based on specified criteria.",
+            "display_name": "Split Text",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "data_inputs",
+              "chunk_overlap",
+              "chunk_size",
+              "separator",
+              "text_key",
+              "keep_separator"
+            ],
+            "frozen": false,
+            "icon": "scissors-line-dashed",
+            "legacy": false,
+            "lf_version": "1.4.2",
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Chunks",
+                "hidden": false,
+                "method": "split_text",
+                "name": "chunks",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              },
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "DataFrame",
+                "hidden": null,
+                "method": "as_dataframe",
+                "name": "dataframe",
+                "options": null,
+                "required_inputs": null,
+                "selected": "DataFrame",
+                "tool_mode": true,
+                "types": [
+                  "DataFrame"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "chunk_overlap": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "Chunk Overlap",
+                "dynamic": false,
+                "info": "Number of characters to overlap between chunks.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chunk_overlap",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 20
+              },
+              "chunk_size": {
+                "_input_type": "IntInput",
+                "advanced": false,
+                "display_name": "Chunk Size",
+                "dynamic": false,
+                "info": "The maximum length of each chunk. Text is first split by separator, then chunks are merged up to this size. Individual splits larger than this won't be further divided.",
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "chunk_size",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "int",
+                "value": 1000000
+              },
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langchain_text_splitters import CharacterTextSplitter\n\nfrom langflow.custom import Component\nfrom langflow.io import DropdownInput, HandleInput, IntInput, MessageTextInput, Output\nfrom langflow.schema import Data, DataFrame\nfrom langflow.utils.util import unescape_string\n\n\nclass SplitTextComponent(Component):\n    display_name: str = \"Split Text\"\n    description: str = \"Split text into chunks based on specified criteria.\"\n    icon = \"scissors-line-dashed\"\n    name = \"SplitText\"\n\n    inputs = [\n        HandleInput(\n            name=\"data_inputs\",\n            display_name=\"Data or DataFrame\",\n            info=\"The data with texts to split in chunks.\",\n            input_types=[\"Data\", \"DataFrame\"],\n            required=True,\n        ),\n        IntInput(\n            name=\"chunk_overlap\",\n            display_name=\"Chunk Overlap\",\n            info=\"Number of characters to overlap between chunks.\",\n            value=200,\n        ),\n        IntInput(\n            name=\"chunk_size\",\n            display_name=\"Chunk Size\",\n            info=(\n                \"The maximum length of each chunk. Text is first split by separator, \"\n                \"then chunks are merged up to this size. \"\n                \"Individual splits larger than this won't be further divided.\"\n            ),\n            value=1000,\n        ),\n        MessageTextInput(\n            name=\"separator\",\n            display_name=\"Separator\",\n            info=(\n                \"The character to split on. Use \\\\n for newline. \"\n                \"Examples: \\\\n\\\\n for paragraphs, \\\\n for lines, . for sentences\"\n            ),\n            value=\"\\n\",\n        ),\n        MessageTextInput(\n            name=\"text_key\",\n            display_name=\"Text Key\",\n            info=\"The key to use for the text column.\",\n            value=\"text\",\n            advanced=True,\n        ),\n        DropdownInput(\n            name=\"keep_separator\",\n            display_name=\"Keep Separator\",\n            info=\"Whether to keep the separator in the output chunks and where to place it.\",\n            options=[\"False\", \"True\", \"Start\", \"End\"],\n            value=\"False\",\n            advanced=True,\n        ),\n    ]\n\n    outputs = [\n        Output(display_name=\"Chunks\", name=\"chunks\", method=\"split_text\"),\n        Output(display_name=\"DataFrame\", name=\"dataframe\", method=\"as_dataframe\"),\n    ]\n\n    def _docs_to_data(self, docs) -> list[Data]:\n        return [Data(text=doc.page_content) for doc in docs]\n\n    def _fix_separator(self, separator: str) -> str:\n        \"\"\"Fix common separator issues and convert to proper format.\"\"\"\n        if separator == \"/n\":\n            return \"\\n\"\n        if separator == \"/t\":\n            return \"\\t\"\n        return separator\n\n    def split_text_base(self):\n        separator = self._fix_separator(self.separator)\n        separator = unescape_string(separator)\n\n        if isinstance(self.data_inputs, DataFrame):\n            if not len(self.data_inputs):\n                msg = \"DataFrame is empty\"\n                raise TypeError(msg)\n\n            self.data_inputs.text_key = self.text_key\n            try:\n                documents = self.data_inputs.to_lc_documents()\n            except Exception as e:\n                msg = f\"Error converting DataFrame to documents: {e}\"\n                raise TypeError(msg) from e\n        else:\n            if not self.data_inputs:\n                msg = \"No data inputs provided\"\n                raise TypeError(msg)\n\n            documents = []\n            if isinstance(self.data_inputs, Data):\n                self.data_inputs.text_key = self.text_key\n                documents = [self.data_inputs.to_lc_document()]\n            else:\n                try:\n                    documents = [input_.to_lc_document() for input_ in self.data_inputs if isinstance(input_, Data)]\n                    if not documents:\n                        msg = f\"No valid Data inputs found in {type(self.data_inputs)}\"\n                        raise TypeError(msg)\n                except AttributeError as e:\n                    msg = f\"Invalid input type in collection: {e}\"\n                    raise TypeError(msg) from e\n        try:\n            # Convert string 'False'/'True' to boolean\n            keep_sep = self.keep_separator\n            if isinstance(keep_sep, str):\n                if keep_sep.lower() == \"false\":\n                    keep_sep = False\n                elif keep_sep.lower() == \"true\":\n                    keep_sep = True\n                # 'start' and 'end' are kept as strings\n\n            splitter = CharacterTextSplitter(\n                chunk_overlap=self.chunk_overlap,\n                chunk_size=self.chunk_size,\n                separator=separator,\n                keep_separator=keep_sep,\n            )\n            return splitter.split_documents(documents)\n        except Exception as e:\n            msg = f\"Error splitting text: {e}\"\n            raise TypeError(msg) from e\n\n    def split_text(self) -> list[Data]:\n        return self._docs_to_data(self.split_text_base())\n\n    def as_dataframe(self) -> DataFrame:\n        return DataFrame(self.split_text())\n"
+              },
+              "data_inputs": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Data or DataFrame",
+                "dynamic": false,
+                "info": "The data with texts to split in chunks.",
+                "input_types": [
+                  "Data",
+                  "DataFrame"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "data_inputs",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              },
+              "keep_separator": {
+                "_input_type": "DropdownInput",
+                "advanced": true,
+                "combobox": false,
+                "dialog_inputs": {},
+                "display_name": "Keep Separator",
+                "dynamic": false,
+                "info": "Whether to keep the separator in the output chunks and where to place it.",
+                "name": "keep_separator",
+                "options": [
+                  "False",
+                  "True",
+                  "Start",
+                  "End"
+                ],
+                "options_metadata": [],
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "toggle": false,
+                "tool_mode": false,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "False"
+              },
+              "separator": {
+                "_input_type": "MessageTextInput",
+                "advanced": false,
+                "display_name": "Separator",
+                "dynamic": false,
+                "info": "The character to split on. Use \\n for newline. Examples: \\n\\n for paragraphs, \\n for lines, . for sentences",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "separator",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "\\n"
+              },
+              "text_key": {
+                "_input_type": "MessageTextInput",
+                "advanced": true,
+                "display_name": "Text Key",
+                "dynamic": false,
+                "info": "The key to use for the text column.",
+                "input_types": [
+                  "Message"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "load_from_db": false,
+                "name": "text_key",
+                "placeholder": "",
+                "required": false,
+                "show": true,
+                "title_case": false,
+                "tool_mode": false,
+                "trace_as_input": true,
+                "trace_as_metadata": true,
+                "type": "str",
+                "value": "text"
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "SplitText"
+        },
+        "dragging": false,
+        "id": "SplitText-XlRyY",
+        "measured": {
+          "height": 503,
+          "width": 320
+        },
+        "position": {
+          "x": 1060.312299738634,
+          "y": 1475.8862441891079
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-czml8",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "description": "Attach a thumbnail <img> tag for the first image in each Data object.",
+            "display_name": "Image to MD",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "data_in"
+            ],
+            "frozen": false,
+            "icon": "image",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "Data with MD",
+                "hidden": false,
+                "method": "add_md_img",
+                "name": "data_out",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from langflow.custom import Component\nfrom langflow.io import HandleInput, Output\nfrom langflow.schema import Data\n\nclass Image2Markdown(Component):\n    \"\"\"\n    Convert the first base-64 image in Data.images → HTML <img> tag\n    and store it in Data.data['markdown_image'].\n    \"\"\"\n\n    display_name = \"Image to MD\"\n    name = \"Image2Markdown\"\n    icon = \"image\"\n    description = \"Attach a thumbnail <img> tag for the first image in each Data object.\"\n\n    inputs = [\n        HandleInput(\n            name=\"data_in\",\n            display_name=\"Data\",\n            input_types=[\"Data\"],\n            required=True,\n        )\n    ]\n\n    outputs = [\n        Output(\n            display_name=\"Data with MD\",\n            name=\"data_out\",\n            method=\"add_md_img\",\n        )\n    ]\n\n    def add_md_img(self) -> Data:\n        d = self.data_in\n        imgs = d.data.get(\"images\", [])\n        if imgs:\n            d.data[\"markdown_image\"] = (\n                f'<img src=\"data:image/png;base64,{imgs[0]}\" '\n                'style=\"max-width:250px;border:1px solid #ccc;\" />'\n            )\n        return d\n"
+              },
+              "data_in": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "display_name": "Data",
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "data_in",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "Image2Markdown"
+        },
+        "dragging": false,
+        "id": "CustomComponent-czml8",
+        "measured": {
+          "height": 210,
+          "width": 320
+        },
+        "position": {
+          "x": 806.1358339566831,
+          "y": -1340.6091111549613
+        },
+        "selected": false,
+        "type": "genericNode"
+      },
+      {
+        "data": {
+          "id": "CustomComponent-IjuJb",
+          "node": {
+            "base_classes": [
+              "Data"
+            ],
+            "beta": false,
+            "conditional_paths": [],
+            "custom_fields": {},
+            "display_name": "PageSplitter",
+            "documentation": "",
+            "edited": true,
+            "field_order": [
+              "doc"
+            ],
+            "frozen": false,
+            "icon": "file-binary",
+            "legacy": false,
+            "metadata": {},
+            "minimized": false,
+            "output_types": [],
+            "outputs": [
+              {
+                "allows_loop": false,
+                "cache": true,
+                "display_name": "pages",
+                "hidden": false,
+                "method": "split",
+                "name": "pages",
+                "options": null,
+                "required_inputs": null,
+                "selected": "Data",
+                "tool_mode": true,
+                "types": [
+                  "Data"
+                ],
+                "value": "__UNDEFINED__"
+              }
+            ],
+            "pinned": false,
+            "template": {
+              "_type": "Component",
+              "code": {
+                "advanced": true,
+                "dynamic": true,
+                "fileTypes": [],
+                "file_path": "",
+                "info": "",
+                "list": false,
+                "load_from_db": false,
+                "multiline": true,
+                "name": "code",
+                "password": false,
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "type": "code",
+                "value": "from typing import List\nfrom langflow.custom import Component\nfrom langflow.io import HandleInput, Output\nfrom langflow.schema import Data\n\nclass PageSplitter(Component):\n    display_name = \"PageSplitter\"\n    icon = \"file-binary\"\n\n    inputs  = [HandleInput(name=\"doc\", input_types=[\"Data\", \"List\"], required=True)]\n    outputs = [Output(name=\"pages\", method=\"split\")]\n\n    def split(self) -> List[Data]:\n        docs = self.doc if isinstance(self.doc, list) else [self.doc]\n        docs = [d for d in docs if isinstance(d, Data)]\n        final: List[Data] = []\n\n        for big in docs:\n            # Unpack text, images (now as [(page, b64)...])\n            images = big.metadata.get(\"images\", [])\n            text = big.text\n            # Use PyMuPDF style: assume one chunk, split by number of images (or guess 1 page if none)\n            num_pages = max([pg for pg, _ in images], default=1)\n\n            # (Optional: use '\\f' only if present)\n            page_texts = text.split('\\f') if '\\f' in text else [text] * num_pages\n            # If text has fewer splits, pad it\n            while len(page_texts) < num_pages:\n                page_texts.append(\"\")\n\n            for n in range(1, num_pages+1):\n                imgs = [(pg, b64) for pg, b64 in images if pg == n]\n                d = Data(\n                    text=page_texts[n-1],\n                    metadata={\n                        \"page_idx\": n,\n                        \"images\": imgs\n                    }\n                )\n                d.text_key = \"text\"\n                print(f\"  page {n:2d}  images={len(imgs)} text_len={len(page_texts[n-1])}\")\n                final.append(d)\n        return final\n"
+              },
+              "doc": {
+                "_input_type": "HandleInput",
+                "advanced": false,
+                "dynamic": false,
+                "info": "",
+                "input_types": [
+                  "Data",
+                  "List"
+                ],
+                "list": false,
+                "list_add_label": "Add More",
+                "name": "doc",
+                "placeholder": "",
+                "required": true,
+                "show": true,
+                "title_case": false,
+                "trace_as_metadata": true,
+                "type": "other",
+                "value": ""
+              }
+            },
+            "tool_mode": false
+          },
+          "showNode": true,
+          "type": "PageSplitter"
+        },
+        "dragging": false,
+        "id": "CustomComponent-IjuJb",
+        "measured": {
+          "height": 154,
+          "width": 320
+        },
+        "position": {
+          "x": 147.06105393138623,
+          "y": -118.97340450693457
+        },
+        "selected": false,
+        "type": "genericNode"
+      }
+    ],
+    "viewport": {
+      "x": 390.6059275821362,
+      "y": 234.17228669658533,
+      "zoom": 0.2
+    }
+  },
+  "description": "Building Intelligent Interactions.",
+  "endpoint_name": null,
+  "id": "241b68b2-7e77-49f1-b2f7-f752729c2ae0",
+  "is_component": false,
+  "last_tested_version": "1.4.2",
+  "name": "Data_Loader for OT",
+  "tags": []
+}
