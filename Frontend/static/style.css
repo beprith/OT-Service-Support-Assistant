@@ -1,0 +1,127 @@
+/* ==== GLOBAL & HEADER STYLING ==== */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+/* Push content below toolbar */
+.block-container {
+  padding-top: 60px !important;
+}
+/* Remove extra gap under our custom header */
+.block-container > div.element-container:first-child {
+  margin-bottom: 0 !important;
+}
+
+/* Header bar */
+.app-header {
+  background: linear-gradient(135deg, #3A0CA3, #4361EE);
+  padding: 1rem 1.5rem;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  margin-bottom: 0.3rem;
+}
+.app-header h1 {
+  margin: 0;
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.app-header h2 {
+  margin: 0.75rem 0 0.2rem;
+  color: #FAFAFA;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+}
+.app-header p {
+  margin: 0;
+  color: #CCC;
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0.85;
+}
+
+/* ==== DARK THEME FOR REST OF UI ==== */
+html, body, [class*="css"] {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0D1117 !important;
+  color: #FAFAFA !important;
+  font-size: 15px !important;
+}
+
+/* Inputs & Textareas */
+input, textarea {
+  background: rgba(255,255,255,0.05) !important;
+  border: 1px solid #333 !important;
+  border-radius: 10px !important;
+  padding: 0.45rem 0.75rem !important;
+  color: #FAFAFA !important;
+  box-shadow: inset 0 0 4px rgba(255,255,255,0.05) !important;
+}
+::placeholder {
+  color: #999 !important;
+  opacity: 0.6 !important;
+  font-style: italic !important;
+}
+
+/* Buttons */
+.stButton > button {
+  background: linear-gradient(135deg, #3A0CA3, #4361EE) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  color: #FFF !important;
+  padding: 0.4rem 1rem !important;
+  font-weight: bold !important;
+  transition: 0.3s ease-in-out !important;
+}
+.stButton > button:hover {
+  background: linear-gradient(135deg, #7209B7, #4CC9F0) !important;
+  transform: scale(1.03) !important;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+  background: rgba(255,255,255,0.03) !important;
+  backdrop-filter: blur(10px) !important;
+  border-right: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+/* Images */
+.stImage > img {
+  border-radius: 12px !important;
+  box-shadow: 0 0 10px rgba(0,255,255,0.15) !important;
+}
+
+/* Markdown, text input & areas container */
+.stMarkdown, .stTextInput, .stTextArea {
+  background-color: rgba(255,255,255,0.02) !important;
+  padding: 1rem !important;
+  border-radius: 12px !important;
+  margin-bottom: 0.8rem !important;
+}
+/* ==== TASK CHECKLIST UI ==== */
+.task-checklist {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 1rem 1.25rem;
+  margin-top: 1rem;
+  border-left: 4px solid #4CC9F0;
+  border-radius: 10px;
+}
+.task-checklist h4 {
+  margin-bottom: 0.75rem;
+  color: #4CC9F0;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Sidebar toggle style */
+section[data-testid="stSidebar"] label[data-testid="stCheckboxLabel"] {
+  font-weight: 500;
+  font-size: 15px;
+  color: #A0A0A0;
+}
+
+
+
